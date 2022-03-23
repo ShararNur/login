@@ -9,70 +9,96 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.side-part {
+.left-side {
   position: absolute;
+  width: 60%;
+  height: 100%;
   background: radial-gradient(
     99.87% 413.14% at 0% 4.98%,
     #443453 0%,
     #232323 28.23%,
     #252425 100%
   );
-  padding: 22.3em 35em;
 }
 
-.login-panel {
+.right-side {
   position: absolute;
-  width: 30%;
-  margin: 3.5em 0 0 60em;
-  background: #ffffff;
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
+  left: 50%;
 }
 
 .bg-img {
-  position: absolute;
-  width: 44%;
-  height: 620px;
-  left: 187px;
-  top: 80px;
+  padding: 20em 0;
+  margin-top: 2em;
+  background-image: url('../../resource/Group\ 312.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
-.login-form {
-  width: 55%;
-  margin: auto;
-  padding: 2em 0;
-}
-
-.loginbtn {
-  width: 100%;
-  background: #3e489a;
+.login-box {
+  background: #ffffff;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
+  height: 650px;
+  outline: 1px solid green;
+  padding: 0 2em;
 }
 
-.txt-red {
+.inner-box {
+  margin-top: 30px;
+}
+
+.custom-width {
+  width: 70%;
+  margin: 2em auto;
+}
+
+.cst-border {
+  border: 2px solid #666666 !important;
+}
+
+.logo {
+  height: 80px;
+}
+
+.forget-pass {
+  text-decoration: none;
   color: #ff0000;
   float: right;
 }
 
-.or {
+.login-btn {
+  width: 100%;
+  background: #3e489a !important;
+  border-radius: 10px;
+}
+
+.txt-or {
   width: 100%;
   text-align: center;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #666666;
   line-height: 0.1em;
   margin: 10px 0 20px;
 }
 
-span {
+.alternate {
   background: #fff;
   padding: 0 30px;
 }
 
-.signup {
-  text-decoration: none;
-  font-weight: bold;
+.icon {
+  text-align: center;
 }
 
-.heading {
-  color: #473558;
-  margin-bottom: 1em;
+.fb-icon {
+  color: #4267b2;
+  margin-right: 2em;
+}
+
+.google-icon {
+  color: #4285f4;
+}
+
+.sign-up {
+  text-decoration: none;
 }
